@@ -24,4 +24,4 @@ published: true
   }
 </script>
 
-<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" onerror="err(this)"></iframe>
+<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" onerror="err(this)" frameborder="0"></iframe>

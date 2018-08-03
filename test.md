@@ -4,4 +4,4 @@ title: Смета
 published: true
 ---
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRVfyGm6lMjqM5vQ0kGRfcd8GaHNMJb8J2-6716NQ0GK4QOFwFVEHhQrcRGKZwywn_yRBGviq1cKObU/pub?embedded=true" style="width: 100%; height: 90vh"></iframe>
+<iframe src="https://docs.google.com/document/d/2PACX-1vRVfyGm6lMjqM5vQ0kGRfcd8GaHNMJb8J2-6716NQ0GK4QOFwFVEHhQrcRGKZwywn_yRBGviq1cKObU/export?format=pdf&embedded=true" style="width: 100%; height: 90vh"></iframe>

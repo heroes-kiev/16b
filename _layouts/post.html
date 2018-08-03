@@ -3,13 +3,13 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <h1 class="mb-5">{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
   </div>
 
-  <div class="date small">
+  <div class="date small mt-5">
     Написано {{ page.date | date: "%B %e, %Y" }}
   </div>
 </article>

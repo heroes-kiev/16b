@@ -20,13 +20,17 @@
         <ul>
           {% for page in site.pages %}
             <div class="item">
-              <h3>{{page.title}}</h3>
+              <a href="{{page.url}}">
+                <h3>{{page.title}}</h3>
+              </a>
             </div>
           {% endfor %}
           <hr>
           {% for page in site.posts %}
             <div class="item">
-              <h3>{{page.title}}</h3>
+              <a href="{{page.url}}">
+                <h4>{{page.title}}</h4>
+              </a>
             </div>
           {% endfor %}
         </ul>

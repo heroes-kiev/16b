@@ -20,7 +20,7 @@ nav {
 }
 
 main {
-  height: 100%;
+  height: calc(90vh - 2em);
 }
 
 footer {

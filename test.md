@@ -18,4 +18,4 @@ published: true
   }
 </script>
 
-<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)"></iframe>
+<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" sandbox="allow-scripts"></iframe>

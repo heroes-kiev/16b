@@ -8,7 +8,9 @@
 
 header {}
 
-nav {}
+nav {
+	padding-left: 1em;
+}
 
 main {}
 

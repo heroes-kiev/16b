@@ -6,21 +6,13 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  background-color: #4caf50;
-}
+header {}
 
-nav {
-  background-color: #80d8ff;
-}
+nav {}
 
-main {
-  background-color: #009688;
-}
+main {}
 
-footer {
-  background-color: #2196f3;
-}
+footer {}
 
 h1,
 h2,

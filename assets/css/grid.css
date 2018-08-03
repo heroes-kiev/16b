@@ -35,9 +35,9 @@ footer {
 }
 
 #layout {
-  grid-template-areas: "header header header"
-                       "nav  main main"
-                       "footer footer footer"
+  grid-template-areas: "header header header header"
+                       "nav  main main main"
+                       "footer footer footer footer"
 }
 
 #layout > header {

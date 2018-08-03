@@ -11,8 +11,8 @@ published: true
 	}
 </style>
 <script>
-  function err(e) {
-  	console.log('catched e', e);
+  function err(a, b, c) {
+  	console.log('catched e', a, b, c);
   }
 
   window.onerror = err;
@@ -24,4 +24,4 @@ published: true
   }
 </script>
 
-<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)"></iframe>
+<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" onerror="err(this)"></iframe>

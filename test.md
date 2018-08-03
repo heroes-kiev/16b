@@ -13,7 +13,7 @@ published: true
 <script>
   function checkFrame(iframe) {
     if (!iframe || !iframe.contentDocument || !iframe.contentDocument.location) {
-      this.outterHTML = '<h3>You are not allowed to view this content :(</h3>';
+      iframe.outerHTML = '<h3>You are not allowed to view this content :(</h3>';
     }
   }
 </script>

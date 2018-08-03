@@ -1,20 +1,31 @@
 ﻿html {
   box-sizing: border-box;
+  height: 100%:
+}
+
+body {
+  height: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-header {}
+header {
+	height: 9vh;
+}
 
 nav {
 	padding-left: 1em !important;
 }
 
-main {}
+main {
+  height: 100%;
+}
 
-footer {}
+footer {
+  height: 1vh;
+}
 
 h1,
 h2,
@@ -32,6 +43,7 @@ footer {
 
 #layout {
   display: grid;
+  height: 100%;
 }
 
 #layout {

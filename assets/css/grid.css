@@ -9,7 +9,7 @@
 header {}
 
 nav {
-	padding-left: 1em;
+	padding-left: 1em !important;
 }
 
 main {}

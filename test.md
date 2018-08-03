@@ -24,4 +24,6 @@ published: true
   }
 </script>
 
+<h3 class="invisible">test header</h3>
+
 <iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" onerror="err(this)" frameborder="0"></iframe>

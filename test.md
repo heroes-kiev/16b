@@ -15,6 +15,8 @@ published: true
   	console.log('catched e', e);
   }
 
+  window.onerror = err;
+
   function checkFrame(iframe) {
     if (!iframe || !iframe.contentDocument || !iframe.contentDocument.location) {
 //      iframe.outerHTML = '<h3>You are not allowed to view this content :(</h3>';

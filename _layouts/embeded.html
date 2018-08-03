@@ -17,6 +17,12 @@ layout: default
 	}
 </style>
 
-<h3 class="access-alert">У вас нет доступа к запрашиваемой информации. Пожалуйста, <a href="http://accounts.google.com">используйте</a> свой google-аккаунт.</h3>
+<h3 class="invisible access-alert">Похоже, у вас нет доступа к запрашиваемой информации.<br>Пожалуйста, <a href="http://accounts.google.com">используйте</a> свой google-аккаунт.</h3>
 
 {{ content }}
+
+<script>
+	setTimeout(function() {
+		document.querySelector('.access-alert').classList.toggle('invisible');
+	}, 2000);
+</script>

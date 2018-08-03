@@ -21,9 +21,9 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              {% for page in site.pages %}
-                {% unless page.exclude %}
-                  <a class="nav-item nav-link" href="{{page.url}}">{{page.title}}</a>
+              {% for link in site.pages %}
+                {% unless link.exclude %}
+                  <a class="nav-item nav-link {{link.url == page.url ? 'active' : ''}}" href="{{page.url}}">{{page.title}}</a>
                 {% endunless %}
               {% endfor %}
             </div>
@@ -51,6 +51,9 @@
       </footer>
     </div>                
                           
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123295919-1"></script>
     <script>

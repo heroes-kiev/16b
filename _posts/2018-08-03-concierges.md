@@ -4,7 +4,7 @@ layout: post
 title: Зарплата консьержам
 ---
 
-![100_uah.jpg](/assets/images/100_uah.jpg)
+<img src="/assets/images/100_uah.jpg" align="left" class="rounded mr-3">
 Уважаемые соседи,
 с августа повышается зарплата консьержам с 60 до 100 гривен.
 Это связано с тем, что в нашем доме самая низкая зарплата по Киеву.

@@ -11,11 +11,15 @@ published: true
 	}
 </style>
 <script>
+  function err(e) {
+  	console.log('catched e', e);
+  }
+
   function checkFrame(iframe) {
     if (!iframe || !iframe.contentDocument || !iframe.contentDocument.location) {
-      iframe.outerHTML = '<h3>You are not allowed to view this content :(</h3>';
+//      iframe.outerHTML = '<h3>You are not allowed to view this content :(</h3>';
     }
   }
 </script>
 
-<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)" sandbox="allow-scripts"></iframe>
+<iframe src="https://docs.google.com/document/d/19Aw1LKBVF_6qHKFTxOW2RrAqu6rXeDzrGwhULjJflwE/preview" onload="checkFrame(this)"></iframe>

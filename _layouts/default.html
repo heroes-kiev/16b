@@ -40,7 +40,7 @@
         {% for link in site.posts %}
           {% unless link.exclude %}
             {% if page.url == link.url %}
-              <div class="nav-item active" href="{{link.url}}">{{link.title}}</div>
+              <div class="nav-link active" href="{{link.url}}">{{link.title}}</div>
             {% else %}
               <a class="nav-link" href="{{link.url}}">{{link.title}}</a>
             {% endif %}

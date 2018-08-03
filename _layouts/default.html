@@ -24,9 +24,9 @@
               {% for link in site.pages %}
                 {% unless link.exclude %}
                   {% if page.url == link.url %}
-                    <a class="nav-item nav-link active" href="{{page.url}}">{{page.title}}</a>
+                    <a class="nav-item nav-link active" href="{{link.url}}">{{link.title}}</a>
                   {% else %}
-                    <a class="nav-item nav-link" href="{{page.url}}">{{page.title}}</a>
+                    <a class="nav-item nav-link" href="{{link.url}}">{{link.title}}</a>
                   {% endif %}
                 {% endunless %}
               {% endfor %}
@@ -37,11 +37,11 @@
       </header>
       <nav>
         <ul>
-          {% for page in site.posts %}
-            {% unless page.exclude %}
+          {% for link in site.posts %}
+            {% unless link.exclude %}
               <div class="item">
-                <a href="{{page.url}}">
-                  <h4>{{page.title}}</h4>
+                <a href="{{link.url}}">
+                  <h4>{{link.title}}</h4>
                 </a>
               </div>
             {% endunless %}

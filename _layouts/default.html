@@ -15,12 +15,14 @@
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand" href="/">{{ site.title }}</a>
 
-          <div class="navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
               {% for page in site.pages %}
-                <li class="nav-item">
-                  <a href="{{page.url}}">{{page.title}}</a>
-                </li>
+                {% unless page.exclude %}
+                  <li class="nav-item">
+                    <a href="{{page.url}}">{{page.title}}</a>
+                  </li>
+                {% endunless %}
               {% endfor %}
             </ul>
           </div>
@@ -30,11 +32,13 @@
       <nav>
         <ul>
           {% for page in site.posts %}
-            <div class="item">
-              <a href="{{page.url}}">
-                <h4>{{page.title}}</h4>
-              </a>
-            </div>
+            {% unless page.exclude %}
+              <div class="item">
+                <a href="{{page.url}}">
+                  <h4>{{page.title}}</h4>
+                </a>
+              </div>
+            {% endunless %}
           {% endfor %}
         </ul>
       </nav>

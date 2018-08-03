@@ -6,7 +6,7 @@ title: Список телефонов
 
 # ТЕЛЕФОНЫ СПРАВКА
 
-<table class="table table-striped table-hover">
+<table class="table table-striped">
   <thead>
     <tr>
       <th>наименование</th>
@@ -25,7 +25,7 @@ title: Список телефонов
     <tr>
       <td>Приемная ЖЭК 504</td>
       <td style="text-align: center">419-90-86<br>418-20-97<br>419-39-29</td>
-      <td colspan="2" rowspan="2">Оболонский проспект 16А<br>среда 15:00 – 19:00<br>пятница 10:00 – 13:00<br><a href="mailto:jek504@ukr.net">jek504@ukr.net</a></td>
+      <td style="text-align: center; vertical-align: middle" colspan="2" rowspan="2">Оболонский проспект 16А<br>среда 15:00 – 19:00<br>пятница 10:00 – 13:00<br><a href="mailto:jek504@ukr.net">jek504@ukr.net</a></td>
     </tr>
     <tr>
       <td>Диспетчер ЖЭК 504</td>

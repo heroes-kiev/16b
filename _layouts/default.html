@@ -35,18 +35,17 @@
         
         </nav>
       </header>
-      <nav>
-        <ul>
-          {% for link in site.posts %}
-            {% unless link.exclude %}
-              <div class="item">
-                <a href="{{link.url}}">
-                  <h4>{{link.title}}</h4>
-                </a>
-              </div>
-            {% endunless %}
-          {% endfor %}
-        </ul>
+      <nav class="nav">
+      	<h3>Обновления:</h3>
+        {% for link in site.posts %}
+          {% unless link.exclude %}
+            {% if page.url == link.url %}
+              <a class="nav-link active" href="{{link.url}}">{{link.title}}</a>
+            {% else %}
+              <a class="nav-link" href="{{link.url}}">{{link.title}}</a>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
       </nav>
       <main>
         {{ content }}

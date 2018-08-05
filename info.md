@@ -17,8 +17,6 @@ exclude: true
       compare if: {% if collection.docs.size > 0 %} more {% else %} no more {% endif %}<br>
       collection inspect:<br>
       <pre>{{collection | inspect}}</pre><br>
-      collection[1]:<br>
-      <pre>{{collection[1] | inspect}}</pre>
     </li>
   {% endfor %}
 </ol>

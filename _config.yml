@@ -2,5 +2,5 @@ title: Наш дом
 theme: jekyll-theme-cayman
 collections:
   docs:
-    output: false
+    output: true
     title: Документация

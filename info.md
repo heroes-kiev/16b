@@ -16,7 +16,7 @@ exclude: true
       docs size check: {% if collection.docs.size > 0 %} has docs {% else %} empty docs {% endif %}<br>
       big unless result: {{collection.label.eql? "posts" || collection.exclude || !collection.output || collection.docs.size == 0}}<br>
       big unless results:<br>
-      - posts: {{collection.label.eql? "posts"}}<br>
+      - posts: {{collection.label.eql? "posts" == true}}<br>
       - exclude: {{collection.exclude == true}}<br>
       - output: {{collection.output == false}}<br>
       - size: {{collection.docs.size == 0}}<br>

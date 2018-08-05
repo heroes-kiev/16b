@@ -15,11 +15,16 @@ exclude: true
       size: {{collection.docs.size}}<br>
       compare: {{collection.docs.size > 0}}<br>
       compare if: {% if collection.docs.size > 0 %} more {% else %} no more {% endif %}<br>
+      big if result: {{collection.label != "posts" && !collection.exclude && collection.output && collection.docs.size > 0}}<br>
+      big if: {% if collection.label != "posts" && !collection.exclude && collection.output && collection.docs.size > 0 %} can show {% else %} hide {% endif %}<br>
       collection inspect:<br>
       <pre>{{collection | inspect}}</pre><br>
     </li>
   {% endfor %}
 </ol>
+
+#### categories:
+<pre>{{ site.categories | inspect }}</pre>
 
 #### collections content:
 <pre>{{site.collections | inspect}}</pre>

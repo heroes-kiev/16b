@@ -32,10 +32,10 @@
               {% endfor %}
 
               {% for collection in site.collections %}
-                {% unless collection.label == "posts" || collection.exclude || !(collection.docs | size) %}
+                {% unless collection.label == "posts" || collection.exclude || (collection.docs | size) > 0 %}
                   <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="collection-{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      {{collection.title}} {{!(collection.docs | size)}}
+                      {{collection.title}} {{(collection.docs | size) > 0}}
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="collection-{{collection.label}}">

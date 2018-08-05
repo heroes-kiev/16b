@@ -32,7 +32,7 @@
               {% endfor %}
 
               {% for collection in site.collections %}
-                {% if collection.label != "posts" && !collection.exclude && collection.output && collection.docs.size > 0 %}
+                {% unless collection.label.eql? "posts" || collection.exclude || !collection.output || collection.docs.size == 0 %}
                   <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="collection-{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       {{collection.title}}
@@ -47,7 +47,7 @@
                     </div>                
                   
                   </div>
-                {% endif %}
+                {% endunless %}
               {% endfor %}
             </div>
           </div>

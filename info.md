@@ -2,7 +2,7 @@
 layout: default
 title: Info
 published: true
-excluded: true
+exclude: true
 ---
 
 <pre>{{site.collections | inspect}}</pre>

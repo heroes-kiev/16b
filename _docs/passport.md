@@ -1,6 +1,7 @@
 ﻿---
 layout: default
 title: Паспорт дома
+id: passport
 published: true
 ---
 

@@ -6,7 +6,7 @@ exclude: true
 ---
 
 #### build:
-<pre>{{ site.github.build_revision }}</pre>
+<pre>{{ site.github | inspect }}</pre>
 
 #### collections content:
 <pre>{{site.collections | inspect}}</pre>

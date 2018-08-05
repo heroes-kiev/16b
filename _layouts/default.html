@@ -32,11 +32,22 @@
               {% endfor %}
 
               {% for collection in site.collections %}
-                <div class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{collection.title}}
-                  </a>
-                </div>
+                {% unless collection.label == "posts" || collection.exclude %}
+                  <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="collection-{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{collection.title}}
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="collection-{{collection.label}}">
+                      {% for doc in collection.docs %}
+                        {% unless doc.exclude %}
+                          <a class="dropdown-item" href="{{doc.url}}">{{doc.title}}</a>
+                        {% endunless %}
+                      {% endfor %}
+                    </div>                
+                  
+                  </div>
+                {% endunless %}
               {% endfor %}
             </div>
           </div>

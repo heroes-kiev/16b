@@ -5,4 +5,4 @@ published: true
 excluded: true
 ---
 
-<pre>{{site | jsonify}}</pre>
+<pre>{{site.collections | jsonify}}</pre>

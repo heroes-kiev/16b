@@ -1,8 +1,9 @@
 ﻿---
 layout: default
 title: Паспорт дома
-id: passport
 published: true
+description: Техническая информация о доме
+img: tech_passport.jpg
 ---
 
 Дата будівлі: 1994-01-01

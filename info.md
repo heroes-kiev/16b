@@ -14,13 +14,13 @@ exclude: true
     <li> <b>collection</b><br>
       size: {{collection.docs.size}}<br>
       compare if: {% if collection.docs.size > 0 %} has docs {% else %} empty docs {% endif %}<br>
-      big if result: {{collection.label.eql? "posts" && !collection.exclude && collection.output && collection.docs.size > 0}}<br>
-      big if results:<br>
+      big unless result: {{collection.label.eql? "posts" || collection.exclude || !collection.output || collection.docs.size == 0}}<br>
+      big unless results:<br>
       - posts: {{collection.label.eql? "posts"}}<br>
-      - exclude: {{!collection.exclude}}<br>
-      - output: {{collection.output}}<br>
-      - size: {{collection.docs.size > 0}}<br>
-      big if: {% if collection.label.eql? "posts" && !collection.exclude && collection.output && collection.docs.size > 0 %} can show {% else %} hide {% endif %}<br>
+      - exclude: {{collection.exclude}}<br>
+      - output: {{!collection.output}}<br>
+      - size: {{collection.docs.size == 0}}<br>
+      big unless: {% unless collection.label.eql? "posts" || collection.exclude || !collection.output || collection.docs.size == 0 %} can show {% else %} hide {% endunless %}<br>
       collection inspect:<br>
       <pre>{{collection | inspect}}</pre><br>
     </li>

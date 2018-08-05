@@ -3,3 +3,4 @@ theme: jekyll-theme-cayman
 collections:
   docs:
     output: true
+    title: Документация

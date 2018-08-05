@@ -30,19 +30,6 @@
                   {% endif %}
                 {% endunless %}
               {% endfor %}
-
-              {% for collection in site.collections %}
-                <div class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="{{collection[1].label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{collection[1].title}}
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="{{collection[1].label}}">
-                    {% for doc in collection[1].docs %}
-                      <a class="dropdown-item" href="{{doc.url}}">{{doc.title}}</a>
-                    {% endfor %}
-                  </div>
-                </div>
-              {% endfor %}
             </div>
           </div>
         

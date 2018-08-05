@@ -1,6 +1,8 @@
 ﻿---
 layout: default
 title: Документы
+exclude: true
+published: false
 ---
 
 <ul class="list-unstyled">

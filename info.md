@@ -5,4 +5,4 @@ published: true
 excluded: true
 ---
 
-<pre>{{site.collections}}</pre>
+<pre>{{site.collections | inspect}}</pre>

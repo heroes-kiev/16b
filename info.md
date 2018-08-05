@@ -17,8 +17,8 @@ exclude: true
       big unless result: {{collection.label.eql? "posts" || collection.exclude || !collection.output || collection.docs.size == 0}}<br>
       big unless results:<br>
       - posts: {{collection.label.eql? "posts"}}<br>
-      - exclude: {{collection.exclude}}<br>
-      - output: {{!collection.output}}<br>
+      - exclude: {{collection.exclude == true}}<br>
+      - output: {{collection.output == false}}<br>
       - size: {{collection.docs.size == 0}}<br>
       big unless: {% unless (collection.label.eql? "posts") || collection.exclude == true || collection.output == false || collection.docs.size == 0 %} can show {% else %} hide {% endunless %}<br>
       collection inspect:<br>

@@ -67,3 +67,9 @@ footer {
 #layout > footer {
   grid-area: footer;
 }
+
+blockquote {
+  color: #666666;
+  border-left: 3px solid silver;
+  padding-left: 0.5em;
+}

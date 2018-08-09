@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Документы
 exclude: true

@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: Документы
-exclude: true
+exclude: false
 published: false
 ---
 

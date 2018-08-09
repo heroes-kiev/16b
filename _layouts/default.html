@@ -34,7 +34,7 @@
               {% for collection in site.collections %}
                 {% if collection.label != "posts" and collection.exclude != true and collection.output and collection.docs.size > 0 %}
                   <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="collection-{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="{{collection.url ? collection.url + '/index.html' : '#'}}" id="collection-{{collection.label}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       {{collection.title}}
                     </a>
 

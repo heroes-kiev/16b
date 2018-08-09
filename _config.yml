@@ -4,3 +4,4 @@ collections:
   docs:
     output: true
     title: Документация
+    url: /docs

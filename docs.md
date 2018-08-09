@@ -9,9 +9,9 @@ published: true
 {% for doc in site.docs %}
 
   <li class="media">
-    <img class="mr-3" src="{{doc.img}}" alt="{{doc.title}}">
+    <a href="{{doc.url}}"><img class="mr-3" src="{{doc.picture}}" alt="{{doc.title}}"></a>
     <div class="media-body">
-      <h5 class="mt-0 mb-1">{{doc.title}}</h5>
+      <h5 class="mt-0 mb-1"><a href="{{doc.url}}">{{doc.title}}</a></h5>
         {{doc.description}}
     </div>
   </li>

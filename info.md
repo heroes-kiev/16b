@@ -20,7 +20,7 @@ exclude: true
       - exclude: {{collection.exclude != true}}, {% if collection.exclude != true %} yes {% else %} no {% endif %}<br>
       - output: {{collection.output}}, {% if collection.output %} yes {% else %} no {% endif %}<br>
       - size: {{collection.docs.size > 0}}, {% if collection.docs.size > 0 %} yes {% else %} no {% endif %}<br>
-      big unless: {% if collection.label != "posts" and !collection.exclude and collection.output and collection.docs.size > 0 %} can show {% else %} hide {% endif %}<br>
+      big if: {% if collection.label != "posts" and !collection.exclude and collection.output and collection.docs.size > 0 %} can show {% else %} hide {% endif %}<br>
       collection inspect:<br>
       <pre>{{collection | inspect}}</pre><br>
     </li>

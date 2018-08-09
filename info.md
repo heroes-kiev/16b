@@ -20,7 +20,7 @@ exclude: true
       - exclude: {{collection.exclude == true}}<br>
       - output: {{collection.output == false}}<br>
       - size: {{collection.docs.size == 0}}<br>
-      big unless: {% if collection.label != "posts" && !collection.exclude && collection.output && collection.docs.size > 0 %} can show {% else %} hide {% endunless %}<br>
+      big unless: {% if collection.label != "posts" && !collection.exclude && collection.output && collection.docs.size > 0 %} can show {% else %} hide {% endif %}<br>
       collection inspect:<br>
       <pre>{{collection | inspect}}</pre><br>
     </li>

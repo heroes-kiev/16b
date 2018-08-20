@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Паспорт дома
+title: Паспорт дома 16Б
 published: true
 description: Техническая информация о доме
 picture: /assets/images/tech_passport.jpg

@@ -1,24 +1,9 @@
 ---
-layout: default
+layout: styled-tables
 title: Финансовый отчет за ремонт ступеней
 sign_date: 2018-08-19
 published: true
 ---
-
-<style>
-table {
-    max-width: 800px;
-    margin: 2em auto 1em;
-}
-td, th {
-    border: 1px solid #e0e0e0;
-    border-collapse: collapse;
-    padding: 7px 10px;
-}
-thead > tr, tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-</style>
 
 # Финансовый отчет за ремонт ступеней
 

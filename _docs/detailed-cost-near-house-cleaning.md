@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: styled-tables
 title: Детализация стоимости оплаты за придомовую территорию
 published: true
 description: Таблица стоимости работ по уборке придомовой территории
@@ -9,15 +9,6 @@ picture: /assets/images/detailed-cost-near-house-cleaning_thumb.jpg
 <style>
 table {
     max-width: 600px;
-    margin: 2em auto 1em;
-}
-td, th {
-    border: 1px solid #e0e0e0;
-    border-collapse: collapse;
-    padding: 7px 10px;
-}
-thead > tr, tr:nth-child(even) {
-    background-color: #f2f2f2;
 }
 </style>
 

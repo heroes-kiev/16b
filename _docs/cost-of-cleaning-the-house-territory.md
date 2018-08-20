@@ -8,7 +8,7 @@ picture: /assets/images/janitor_thumb.jpg
 
 ### Придомовая территория — сколько стоит ее убрать?
 
-<img src="/assets/images/cleaning-territory-cost-comics.jpg" align="center" class="rounded mr-3">
+<center><img src="/assets/images/cleaning-territory-cost-comics.jpg" class="rounded mr-3"></center>
 
 Кто из Вас задумывался, за что Вы платите ЖЭКу? Уверена, детально разобраться в этом вопросе отваживаются единицы. Поэтому и имеем мы то, что имеем: грязный двор, обветшалые дома, все более возрастающий тариф. Считаю, будет лучше не делать вид, что ЖЭК оказывает нам услуги, а разобраться, как он их оказывает и как должен оказывать.
 
@@ -198,5 +198,5 @@ picture: /assets/images/janitor_thumb.jpg
 
 Успеха!
 
-Ирина Дейнеко  
+Ирина Дейнеко
 © http://www.litsa.com.ua/show/a/16216

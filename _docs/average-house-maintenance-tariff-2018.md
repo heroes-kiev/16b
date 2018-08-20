@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Средний тариф на содержание домов 2018
 published: true

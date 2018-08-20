@@ -6,9 +6,24 @@ description: Таблица стоимости работ по уборке пр
 picture: /assets/images/detailed-cost-near-house-cleaning_thumb.jpg
 ---
 
+<style>
+table {
+    max-width: 600px;
+    margin: 2em auto 1em;
+}
+td, th {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    padding: 7px 10px;
+}
+thead > tr, tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+</style>
+
 ### Детализация стоимости оплаты за придомовую территорию
 
-Наименование | Стоимость грн
+Наименование | Стоимость (грн)
 ---|---:
 уборка территории | 0,4009
 уборка лестничных клеток | 0,8268
@@ -29,6 +44,6 @@ picture: /assets/images/detailed-cost-near-house-cleaning_thumb.jpg
 энергообеспечение лифтов | 0,34
 прибыль | 0,59
 тариф за 1 м кв общей площади в мес без 1_го этажа при оплате после 20-го числа | 6,62
-1-й этаж | 4,48
+&nbsp; &nbsp; &nbsp; &nbsp;1-й этаж | 4,48
 тариф за 1 м кв общей площади в мес без 1_го этажа при оплате до 20-го числа | 6,02
-1-й этаж | 4,44
+&nbsp; &nbsp; &nbsp; &nbsp;1-й этаж | 4,44

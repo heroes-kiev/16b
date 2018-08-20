@@ -5,3 +5,7 @@ collections:
     output: true
     title: Документация
     url: /docs
+  money:
+    output: true
+    title: Отчеты и фонды
+    url: /money

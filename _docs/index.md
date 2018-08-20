@@ -6,7 +6,7 @@ published: true
 ---
 
 <ul class="list-unstyled">
-{% for doc in site.docs %}
+{% for doc in site.docs | sort: "title" %}
   {% if doc.exclude != true %}
 
     <li class="media mt-5">

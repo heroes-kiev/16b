@@ -10,7 +10,7 @@ published: true
   {% if doc.exclude != true %}
 
     <li class="media mt-5">
-      <a href="{{doc.url}}"><img class="mr-3" src="{{doc.picture}}" alt="{{doc.title}}"></a>
+      <a href="{{doc.url}}"><img class="mr-3" style="max-height: 150px" src="{{doc.picture}}" alt="{{doc.title}}"></a>
       <div class="media-body">
         <h5 class="mt-0 mb-1"><a href="{{doc.url}}">{{doc.title}}</a></h5>
           {{doc.description}}

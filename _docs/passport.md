@@ -8,8 +8,7 @@ picture: /assets/images/tech_passport.jpg
 
 ## Техническая информация о доме
 
-![Наш дом](/assets/images/house_view_01.jpg)
-
+<img src="/assets/images/house_view_01.jpg" align="left" class="rounded mr-3">
 
 #### Характеристики дома
 Дата будівлі: 1994-01-01  

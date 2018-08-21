@@ -73,3 +73,7 @@ blockquote {
   border-left: 3px solid silver;
   padding-left: 0.5em;
 }
+
+a:visited {
+  color: #37404e !important;
+}

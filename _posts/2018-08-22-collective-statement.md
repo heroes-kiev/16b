@@ -11,12 +11,14 @@ title: Коллективные заявления в ЖЭК
 {: .u}
 
 1. подписать коллективное заявление в ЖЭК-504 (ФИО, No квартиры, подпись)
-[{{include icons.html type=pdf}}](/assets/statements/housing office - water сommittee in the basement.pdf)
 {: .h3}
+[![Коллективное заявление на обследование горячей и холодной воды в подвале](/assets/images/icons/pdf.png)](/assets/statements/housing office - water сommittee in the basement.pdf)
+Коллективное заявление на обследование горячей и холодной воды в подвале
 
 2. написать от руки заявление на начальника ЖЭКа от каждой квартиры (каждого проживающего в квартире)
-[{{include icons.html type=pdf}}](/assets/statements/housing office - repair of staircases and windows.pdf)
 {: .h3}
+[![Заявление на ремонт лестничных пролетов и окон](/assets/images/icons/pdf.png)](/assets/statements/housing office - repair of staircases and windows.pdf)
+Заявление на ремонт лестничных пролетов и окон
 
 Образец заявления п2 и п1 находятся у консьержа, написаное заявление просьба отдать консьержу
 

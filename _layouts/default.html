@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav mr-auto">
               {% for link in site.pages %}
-                {% unless link.exclude %}
+                {% if link.exclude != true and link.published %}
                   {% if page.url == link.url %}
                     <a class="nav-item nav-link active" href="{{link.url}}">{{link.title}}</a>
                   {% else %}

@@ -51,7 +51,7 @@
               {% endfor %}
             </div>
             <div class="navbar-nav">
-              <a class="nav-item nav-link text-right {{page.url == '/contacts.html' ? 'active' : ''}}" href="/contacts.html">Напишите нам</a>
+              <a class="nav-item nav-link text-right {% if page.url == '/contacts.html' %} active {% endif %}" href="/contacts.html">Напишите нам</a>
             </div>
           </div>
         

@@ -2,6 +2,8 @@
 layout: default
 title: Цвета стояков
 published: true
+description: Цветовое обозначение квартир (стояков) на этаже
+picture: /assets/images/colors_of_the_risers_thumb.jpg
 ---
 
-![color_of_the_risers.jpg]({{site.baseurl}}/_docs/color_of_the_risers.jpg)
+![color_of_the_risers.jpg]({{site.baseurl}}/assets/images/color_of_the_risers.jpg)

@@ -3,6 +3,7 @@ published: true
 layout: post
 title: Создание ОСББ
 ---
+
 ![Схема создания ОСМД]({{site.baseurl}}//assets/images/osmd-v-ukraine-shema-sozdaniya.jpg){: align='center'}
 
 Уважаемые соседи!
@@ -24,5 +25,4 @@ title: Создание ОСББ
 Курирует вопрос Светлана (номер телефона есть у консьержа).
 
 С уважением,
-инициативная
-группа
+инициативная группа

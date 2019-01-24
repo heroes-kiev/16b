@@ -4,7 +4,8 @@ layout: post
 title: Создание ОСББ
 ---
 
-![Схема создания ОСМД](/assets/images/osmd-v-ukraine-shema-sozdaniya.jpg){: align='center', width=500}
+![Схема создания ОСМД](/assets/images/osmd-v-ukraine-shema-sozdaniya.jpg){: width="500"}
+{: style="text-align: center"}
 
 Уважаемые соседи!
 
